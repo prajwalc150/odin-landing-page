@@ -1,8 +1,16 @@
 body{
+    display: flex;
     margin: 0px;
     min-height: 100vh;
 }
 
+.blob1, .blob3{
+    display: flex;
+    width: 100px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: aquamarine;
+}
 .headerbox{
     display: flex;
     background-color: #1F2937;
@@ -10,6 +18,8 @@ body{
 
 .header{
     font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
     margin-right: auto;
 }
 
@@ -17,12 +27,21 @@ ul{
     display:flex ;
     margin: 0px;
     padding: 0px;
-    gap: 8px;
+    gap: 16px;
     list-style-type: none;
     align-items: center;
 }
 
 li{
     text-decoration: none;
+}
+
+.right-link{
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
 }
