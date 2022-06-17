@@ -127,7 +127,7 @@ img{
     justify-content: center;
     align-items: center;
     flex: 1 1 0%;
-    gap: 16px;
+    gap: 8px;
 }
 
 .text{
@@ -190,12 +190,12 @@ img{
 }
 
 .b4text3{
-    display: flex;
-    border: 5 px solid #e5e7eb;
+    border-radius: 10px;
+    border-color:white;
+    border-style:solid;
     padding: 10px;
     background-color: #3882f6;
-    color: #F9FAF8;
-    border-radius: 10px;
+    color: #F9FAF8; 
     font-weight: 700;
     margin-left: auto;
     
