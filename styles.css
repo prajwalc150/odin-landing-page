@@ -151,7 +151,7 @@ img{
     flex-wrap:wrap ;
     background-color: #e5e7eb;
     flex-direction: column;
-    padding: 30px 200px;
+    padding: 30px 10%;
 }
 
 .b3text1{
@@ -174,7 +174,7 @@ img{
 .box4{
     display: flex;
     margin: 50px 250px;
-    padding: 16px 64px;
+    padding: 16px 1%;
     background-color: #3882f6;
     border-radius: 5px;
 }
