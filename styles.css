@@ -20,11 +20,12 @@ body{
 }
 .headerbox{
     display: flex;
-    flex: 1 1 0%;
+    /*flex: 1 1 0%;*/
     background-color: #1F2937;
 }
 
 .header{
+    padding:8px 32px;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -47,12 +48,70 @@ li{
 .right-link{
     color: #e5e7eb;
     font-size: 18px;
+    padding-right: 32px;
 }
 
 img{
     height: 100px;
     width: 100px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
 }
+
+/*box1*/
+
+.box1{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    flex: 1 1 0%;
+    
+}
+
+.b1{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    max-width: 400px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px;
+}
+
+.b1text1{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.b1text2{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.b1b{
+    padding: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 0px;
+}
+
+.pl-img{
+    background-color: #8d8e91;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 32px 64px;
+    color: #e5e7eb;
+    max-width: 500px;
+    min-width: 300px;
+
+}
+
 /*box2*/
 
 .box2{
@@ -89,6 +148,7 @@ img{
     max-width: 200px;
     text-align: center;
     row-gap: 5px;
+    margin-bottom: 32px;
   }
 /*box3*/
 
@@ -114,6 +174,38 @@ img{
     margin-left: auto;
     font-weight: bold;
 }
+
+/*box4*/
+
+.box4{
+    display: flex;
+    margin: 50px 80px;
+    padding: 16px 64px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.b4text1{
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.b4text2{
+    color: #e5e7eb;
+}
+
+.b4text3{
+    display: flex;
+    border: 5 px solid #e5e7eb;
+    padding: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-left: auto;
+    
+}
+
 /*footer*/
 .footer{
     bottom: 0;
